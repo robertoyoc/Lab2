@@ -6,7 +6,7 @@
     <meta name="description" content="Roberto Yoc, ITC student, Web Developer">
     <title>My Resume</title>
     <meta name="author" content="Roberto Yoc">
-    <link href="./styles.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
 
 </head>
 
@@ -14,6 +14,7 @@
     <header class="grid-container">
         <div></div>
         <address class="text-center">
+            <img src="./img/perfil.png" width="100">
             <h1>Roberto Yoc</h1>
             <div>Calle Chiapas #1336 Monterrey, NL.</div>
             <div>+52 7712204422</div>
@@ -22,13 +23,18 @@
     </header>
 
     <nav>
-        <ul class="menu">
-            <li><a href="#description">Description</a></li>
-            <li><a href="#languages">Languages</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
+        <div class="menu">
+            <div>
+                <a class="valign" href="#description">Description</a>
+            </div>
+            <div>
+
+                <a class="valign" href="#languages">Languages</a>
+            </div>
+            <div><a class="valign" href="#work">Work</a></div>
+            <div><a class="valign" href="#certifications">Certifications</a></div>
+            <div><a class="valign" href="#education">Education</a></div>
+        </div>
 
     </nav>
 
@@ -44,11 +50,11 @@
         <h3 class="title">Programming Languages</h3>
         <div class="content">
             <ul>
-                <li>Javascript - <strong>Expert</strong> </li>
-                <li>Python - <strong>Advanced</strong> </li>
-                <li>Java - <strong>Advanced</strong> </li>
-                <li>SQL - <strong>Expert</strong> </li>
-                <li>PHP - <strong>Expert</strong> </li>
+                <li>Javascript - <strong class="cursive">Expert</strong> </li>
+                <li>Python - <strong class="cursive">Advanced</strong> </li>
+                <li>Java - <strong class="cursive">Advanced</strong> </li>
+                <li>SQL - <strong class="cursive">Expert</strong> </li>
+                <li>PHP - <strong class="cursive">Expert</strong> </li>
             </ul>
         </div>
     </section>
@@ -130,8 +136,9 @@
             </ul>
         </div>
     </section>
-    <footer>
-        Roberto Carlos Yoc Ramírez - 2019
+    <footer >
+        <div class="valign">  Roberto Carlos Yoc Ramírez - 2019</div>
+       
     </footer>
 
 
